@@ -1,33 +1,127 @@
-### SMS Integration
+<h1 align="center">SMS Integration for Frappe ERPNext</h1>
 
-SMS Integration
+<p align="center">
+  A custom Frappe application that integrates Twilio SMS APIs with ERPNext.
+</p>
 
-### Installation
+<hr>
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+<h2>🚀 Features</h2>
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app sms_integration
-```
+<ul>
+  <li>Twilio SMS Integration</li>
+  <li>Custom Twilio Settings DocType</li>
+  <li>Send SMS from Customer Form</li>
+  <li>Automatic Contact Number Retrieval</li>
+  <li>Secure Credential Storage</li>
+  <li>Server-side SMS Processing</li>
+</ul>
 
-### Contributing
+<h2>🛠 Tech Stack</h2>
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+<ul>
+  <li>Frappe Framework v15</li>
+  <li>ERPNext v15</li>
+  <li>Python</li>
+  <li>Twilio API</li>
+</ul>
 
-```bash
-cd apps/sms_integration
-pre-commit install
-```
+<h2>📂 Installation</h2>
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+<pre>
+git clone https://github.com/SSAdhikari11/sms_integration.git
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+cd frappe-bench
 
-### License
+bench get-app sms_integration /path/to/sms_integration
 
-mit
+bench --site your-site install-app sms_integration
+</pre>
+
+<h2>📦 Install Twilio SDK</h2>
+
+<pre>
+bench pip install twilio
+</pre>
+
+<h2>⚙️ Configuration</h2>
+
+<p>
+Navigate to <strong>Twilio Settings</strong> and configure:
+</p>
+
+<table>
+  <tr>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Account SID</td>
+    <td>Twilio Account SID</td>
+  </tr>
+  <tr>
+    <td>Auth Token</td>
+    <td>Twilio Authentication Token</td>
+  </tr>
+  <tr>
+    <td>Twilio Number</td>
+    <td>SMS-enabled Twilio Number</td>
+  </tr>
+</table>
+
+<h2>📱 Usage</h2>
+
+<ol>
+  <li>Open a Customer record.</li>
+  <li>Ensure the linked Contact has a phone number.</li>
+  <li>Click <strong>Send SMS</strong>.</li>
+  <li>The application sends an SMS using Twilio.</li>
+</ol>
+
+<h2>🔄 Workflow</h2>
+
+<pre>
+Customer
+   ↓
+Linked Contact
+   ↓
+Phone Number
+   ↓
+Twilio API
+   ↓
+SMS Delivered
+</pre>
+
+<h2>📸 Screenshots</h2>
+
+<p>Add screenshots here:</p>
+
+<ul>
+  <li>Twilio Settings</li>
+  <img width="1365" height="800" alt="Screenshot 2026-06-03 183726" src="https://github.com/user-attachments/assets/407b57a9-6660-45cb-bb13-cda1442b712f" />
+
+  <li>Customer Form</li>
+  <img width="1379" height="900" alt="Screenshot 2026-06-03 183617" src="https://github.com/user-attachments/assets/ae312249-d86f-44aa-a182-ea6daf694656" />
+
+  <li>SMS Delivery Message</li>
+  <img width="720" height="1560" alt="WhatsApp Image 2026-06-03 at 18 42 26" src="https://github.com/user-attachments/assets/781a9faa-ee35-43a3-ad3a-66cf7f4d94f2" />
+
+</ul>
+
+<h2>🔮 Future Enhancements</h2>
+
+<ul>
+  <li>SMS Templates</li>
+  <li>Bulk SMS Sending</li>
+  <li>SMS Logs</li>
+  <li>Delivery Tracking</li>
+  <li>Scheduled Notifications</li>
+</ul>
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+Sam
+<br>
+GitHub: https://github.com/SSAdhikari11
+</p>
