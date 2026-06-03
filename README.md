@@ -121,7 +121,7 @@ SMS Delivered
 <h2>👨‍💻 Author</h2>
 
 <p>
-Sam
+Suraj
 <br>
 GitHub: https://github.com/SSAdhikari11
 </p>
