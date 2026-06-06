@@ -29,7 +29,7 @@
 <h2>📂 Installation</h2>
 
 <pre>
-bench get-app sms_integration /path/to/sms_integration
+bench get-app https://github.com/SSAdhikari11/Frappe-Twilio-Integration.git
 
 bench --site your-site install-app sms_integration
 </pre>
