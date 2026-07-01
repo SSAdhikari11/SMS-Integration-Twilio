@@ -1,7 +1,7 @@
 <h1 align="center">SMS Integration for Frappe ERPNext</h1>
 
 <p align="center">
-  A custom Frappe application that integrates Twilio SMS APIs with ERPNext.
+  A custom Frappe application that integrates Twilio SMS APIs with ERPNext. 
 </p> 
 
 <hr> 
