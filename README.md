@@ -6,7 +6,7 @@
 
 <hr> 
 
-<h2>🚀 Features</h2>
+<h2>🚀 Features</h2> 
 
 <ul>
   <li>Twilio SMS Integration</li>
