@@ -13,7 +13,7 @@
   <li>Custom Twilio Settings DocType</li>
   <li>Send SMS from Customer Form</li>
   <li>Automatic Contact Number Retrieval</li>
-  <li>Secure Credential Storage</li>
+  <li>Secure Credential Storage</li> 
   <li>Server-side SMS Processing</li>
 </ul>
 
